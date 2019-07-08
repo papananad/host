@@ -1,4 +1,4 @@
-gg.alert("SCRIPT PUBG V 0.13\n❕❗SUBSCRIBE RRGgamingID❗❕", "Menu")
+gg.alert("SCRIPT PUBG V 0.13\n❕❗Script 🅱🆈 kang 🅹🆄🅻🅻🅴🅺❗❕", "Menu")
 function HOME()
 menu = gg.choice({
 "🇮🇩[WallHack & Collor]🇮🇩",
@@ -22,7 +22,7 @@ menuch1 = gg.multiChoice({
 "Color Green",
 "Color Red",
 "Color yellow",
-"Back"},nil," WALLHACK & COLOR KHUSUS SNAPDRAGON\n ❕❗SUBSCRIBE RRGgamingID❗❕")
+"Back"},nil," WALLHACK & COLOR KHUSUS SNAPDRAGON\n ❕❗by papananad™❗❕")
 if menuch1 == nil then else
 if menuch1[1] == true then F1() end
 if menuch1[2] == true then F2() end
@@ -95,7 +95,7 @@ menuch2 = gg.multiChoice({
 "Headshot",
 "Quick Parasute",
 " Skin Weapon",
-"Back"},nil,"MENU LOBBY \n ❕❗SUBSCRIBE RRGgamingID❗❕")
+"Back"},nil,"MENU LOBBY \n ❕❗by papananad™❗❕")
 if menuch2 == nil then else 
 if menuch2[1] == true then A1() end
 if menuch2[2] == true then A2() end
@@ -231,7 +231,7 @@ menuch3 = gg.multiChoice({
 "Speed No Stuck",
 "Antena",
 "Sit Scope",
-"Back"},nil,"MENU INGAME \n ❕❗SUBSCRIBE RRGgamingID❗❕")
+"Back"},nil,"MENU INGAME \n ❕❗by papananad™❗❕")
 if menuch3 == nil then else 
 if menuch3[1] == true then B1() end
 if menuch3[2] == true then B2() end
@@ -295,11 +295,11 @@ end
 function B5()
 gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("327,684;8,197;256;458,754", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResultsCount()
-gg.searchNumber("458,754", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(5)
-gg.editAll("9998", gg.TYPE_DWORD)
+gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false)
+gg.searchNumber("100", gg.TYPE_FLOAT, false)
+gg.getResults(100)
+gg.editAll("-8200", gg.TYPE_FLOAT)
+gg.clearResults()
 gg.toast("Black Sky Aktif")
 end
 function B6()
@@ -375,7 +375,7 @@ function CLOSE()
   gg.toast("TANKS BRO @PAPANANAD")
   os.exit()
 end
-print("❕❗JANGAN LUPA SUBCRIBE❗❕")
+print("❕❗GAWEANE 🇵‌🇦‌🇵‌🇦‌🇳‌🇦‌🇳‌🇦‌🇩‌™❗❕")
 
 
 
